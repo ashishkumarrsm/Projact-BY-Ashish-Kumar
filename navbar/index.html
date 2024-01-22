@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        :root{
+            --color :rgb(255, 255, 255);
+            --bgcolor:#1c656b;
+            --secolor:rgb(76, 197, 218);
+            --sebgcolor:#2e919a;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+        }
+        ul{
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+            border:2px solid black;
+            border-radius: 35px;
+            padding: 13px;
+            margin: 13px;
+            background-color: var(--bgcolor);
+            color: var(--color);
+            cursor: pointer;
+
+        }
+        li:hover{
+            background-color: var(--sebgcolor);
+            color: var(--secolor);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Projact</li>
+                    <li>Login</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
