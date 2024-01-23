@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+   
+}
+nav {
+    /* height: 220px;
+  background: rgb(184, 162, 162);
+  color: black; */
+  
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* cursor: pointer; */
+}
+.point{
+    cursor: pointer;
+}
+.right ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}
+.right ul li {
+    list-style: none;
+}
