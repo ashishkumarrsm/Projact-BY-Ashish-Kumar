@@ -1,0 +1,42 @@
+.contaner {
+  /* width: 50vw;
+  height: 30vh;
+  background: #000; */
+}
+.item {
+  width: 5vw;
+  height: 7vh;
+  position: absolute;
+  bottom: 0px;
+  background: red;
+  border-radius: 50%;
+  animation: animationx 3s linear infinite , animationy 1s ease-in infinite alternate ;
+}
+@keyframes animationx {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes animationy {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+
+img {
+  filter: blur(10px);
+  transition: all;
+  /* transition-delay: 1s; */
+  transition-timing-function: ease-in;
+  transition-duration: 2s;
+}
+
+img:hover {
+  filter: blur(0px);
+}
